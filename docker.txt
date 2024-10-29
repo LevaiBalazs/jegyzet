@@ -1,0 +1,4 @@
+mcr.microsoft.com/mssql/server letöltés ->
+docker pull mcr.microsoft.com/mssql/server (Ubuntu Linux vm)
+
+Image -> container (ez a vm egy példánya)
