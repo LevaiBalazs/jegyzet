@@ -4,3 +4,22 @@ docker pull mcr.microsoft.com/mssql/server (Ubuntu Linux vm)
 Image -> container (ez a vm egy példánya)
 
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Titok2024" -p 1433:1433 --name mssql --hostname mssql -d mcr.microsoft.com/mssql/server 
+
+Parkolóház szimuláció:
+
+parkolohaz
+	autok(rendszam*,osszeg)
+	parkolasok(rendszam, kezdete, vege)
+
+
+1 - rendszam x - parkolas   - rendszam foreign key 
+
+
+
+
+create database parkolohaz
+
+create table autok  
+
+sqlcmd -S ip -U sa
+	
