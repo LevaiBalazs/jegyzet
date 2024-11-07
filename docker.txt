@@ -22,4 +22,4 @@ create database parkolohaz
 create table autok  
 
 sqlcmd -S ip -U sa
-	
+a	
